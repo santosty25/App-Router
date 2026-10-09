@@ -1,4 +1,10 @@
 {
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt",
+      "sharp"
+    ]
+  },
   "private": true,
   "scripts": {
     "build": "next build",
